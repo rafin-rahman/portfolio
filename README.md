@@ -14,6 +14,14 @@ These are my main back-end technologies.
 
 ### `NodeJS ` `Nginx ``MongoDB` `Express `
 
+## Dependencies
+MATERIAL-UI:
+	material-ui/core
+	material-ui/icons
+	material-ui/styles 
+	
+TYPESCRIPT
+
 ## Other
 
 These are my main back-end technologies.
