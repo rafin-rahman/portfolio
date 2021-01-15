@@ -43,7 +43,7 @@ const Header = () => {
             'Git',
             'Deployment',
             'Nginx',
-            'HTMl',
+            'HTML',
             'CSS',
           ]}
           typeSpeed={40}

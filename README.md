@@ -21,6 +21,9 @@ typescript
 
 react-typed
 
+react-particles-js
+
+react-router-dom
 ## Other
 
 These are my main back-end technologies.
