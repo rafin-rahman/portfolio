@@ -17,8 +17,8 @@ import projecttwo from '../assets/images/javascript-fullstack.jpg'
 
 const useStyles = makeStyles({
   mainContainer: {
-    background: '#233',
-    height: '100%',
+    background: '#333',
+    height: '100vh',
   },
   cardContainer: {
     maxWidth: 345,
