@@ -1,14 +1,18 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/styles'
-import { BottomNavigation, BottomNavigationAction } from '@material-ui/core'
+import {
+  BottomNavigation,
+  BottomNavigationAction,
+  Link,
+} from '@material-ui/core'
 import LinkedIn from '@material-ui/icons/LinkedIn'
 import GitHubIcon from '@material-ui/icons/GitHub'
 
 const useStyles = makeStyles({
   root: {
     '& .MuiBottomNavigationAction-root': {
-      minWidth: 0,
-      maxWidth: 250,
+      minWidth: 20,
+      maxWidth: 150,
     },
     '& .MuiSvgIcon-root': {
       fill: '#f1c40f',
@@ -28,18 +32,30 @@ const Footer = () => {
       width={'auto'}
       style={{ background: '#333' }}
     >
-      <BottomNavigationAction
-        component={'div'}
+      <Link
+        href={'https://www.linkedin.com/in/moshfiqur-rahman-rafin-31b223161/'}
+        target="_blank"
         className={classes.root}
-        style={{ padding: 0 }}
-        icon={<LinkedIn />}
-      />{' '}
-      <BottomNavigationAction
-        component={'div'}
+        style={{ marginTop: '15px' }}
+      >
+        <BottomNavigationAction
+          component={'div'}
+          style={{ padding: 0 }}
+          icon={<LinkedIn />}
+        />
+      </Link>
+      <Link
+        href={'https://www.github.com/rafin-rahman'}
+        target="_blank"
         className={classes.root}
-        style={{ padding: 0 }}
-        icon={<GitHubIcon />}
-      />{' '}
+        style={{ margin: '15px' }}
+      >
+        <BottomNavigationAction
+          component={'div'}
+          style={{ padding: 0 }}
+          icon={<GitHubIcon />}
+        />{' '}
+      </Link>
     </BottomNavigation>
   )
 }

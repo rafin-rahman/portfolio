@@ -118,34 +118,45 @@ const Resume = () => {
             variant={'h2'}
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >
-            2013
+            PRESENT
           </Typography>
           <Box component={'div'} className={classes.timeLineItem}>
             <Typography variant="h5" className={classes.subHeading}>
-              Web Design
+              IT Manager
             </Typography>
             <Typography variant="body1" style={{ color: '#f1c40f' }}>
-              Company name where you worked
+              Elizabeth School of London Ltd
             </Typography>
             <Typography variant="subtitle1" style={{ color: '#ecf0f1' }}>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-              ducimus enim eum numquam odit, pariatur perferendis ratione vero
-              voluptatem voluptatum. Aliquam ducimus libero magni, molestias
-              perferendis quae quod repellat sed!
+              • Identify opportunities to improve business internal architecture{' '}
+              <br />
+              • Develop innovative solution to improve company workflow,
+              communication and analytics <br />
+              • Developing the infrastructure and systems to meet the company’s
+              growth
+              <br />
+              • Conduct regular system audits
+              <br />
+              • Collaborate with Web Development team
+              <br />
+              • Keep records and company data
+              <br />
+              • Produce digital material for company marketing campaign
+              <br />
             </Typography>
           </Box>
           <Typography
             variant={'h2'}
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >
-            2014
+            2018
           </Typography>
           <Box component={'div'} className={classes.timeLineItem}>
             <Typography variant="h5" className={classes.subHeading}>
-              HTML & CSS
+              Senior Marketing Officer
             </Typography>
             <Typography variant="body1" style={{ color: '#f1c40f' }}>
-              Company name where you worked
+              Elizabeth School of London Ltd
             </Typography>
             <Typography variant="subtitle1" style={{ color: '#ecf0f1' }}>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
@@ -156,7 +167,7 @@ const Resume = () => {
             variant={'h2'}
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >
-            2015
+            2017
           </Typography>
           <Box component={'div'} className={classes.timeLineItem}>
             <Typography variant="h5" className={classes.subHeading}>
@@ -176,18 +187,6 @@ const Resume = () => {
           >
             2016
           </Typography>
-          <Box component={'div'} className={classes.timeLineItem}>
-            <Typography variant="h5" className={classes.subHeading}>
-              MERN Stack
-            </Typography>
-            <Typography variant="body1" style={{ color: '#f1c40f' }}>
-              Company name where you worked
-            </Typography>
-            <Typography variant="subtitle1" style={{ color: '#ecf0f1' }}>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-              ducimus enim eum numquam
-            </Typography>
-          </Box>
         </Box>
       </Box>
     </>
