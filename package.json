@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://rafin-rahman.github.io/portfolio",
+  "homepage": "https://rafin.co.uk",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.2",
