@@ -12,8 +12,8 @@ import {
   Button,
   Typography,
 } from '@material-ui/core'
-import projectOne from '../assets/images/html-css-javascript-lg.jpg'
-import projecttwo from '../assets/images/javascript-fullstack.jpg'
+import projectOne from '../assets/images/mern-stack.jpg'
+import projecttwo from '../assets/images/react-redux.jpg'
 
 const useStyles = makeStyles({
   mainContainer: {
@@ -43,17 +43,14 @@ const Portfolio = () => {
               />
               <CardContent>
                 <Typography gutterBottom variant={'h5'}>
-                  Project 1
+                  Coming soon
                 </Typography>
                 <Typography
                   variant={'body2'}
                   color={'textSecondary'}
                   component={'p'}
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Adipisci atque blanditiis cumque in maxime molestiae optio
-                  possimus qui rem repellat sunt tenetur, voluptatibus!
-                  Assumenda blanditiis debitis, dignissimos hic quas reiciendis.
+                  {/*text here*/}
                 </Typography>
               </CardContent>
               <CardActions>
@@ -79,17 +76,14 @@ const Portfolio = () => {
               />
               <CardContent>
                 <Typography gutterBottom variant={'h5'}>
-                  Project 2
+                  Coming soon
                 </Typography>
                 <Typography
                   variant={'body2'}
                   color={'textSecondary'}
                   component={'p'}
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Adipisci atque blanditiis cumque in maxime molestiae optio
-                  possimus qui rem repellat sunt tenetur, voluptatibus!
-                  Assumenda blanditiis debitis, dignissimos hic quas reiciendis.
+                  {/*text here*/}
                 </Typography>
               </CardContent>
               <CardActions>

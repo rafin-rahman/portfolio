@@ -65,7 +65,7 @@ const menuItems = [
 const Navbar = () => {
   // state of the mobile menu list
   const [navSlider, setNavSlider] = useState({
-    right: false,
+    left: false,
   })
 
   // toggle mobile menu
@@ -97,16 +97,16 @@ const Navbar = () => {
       <Box component="nav">
         <AppBar position="static" style={{ background: '#222' }}>
           <Toolbar>
-            <IconButton onClick={toggleSlider('right', true)}>
+            <IconButton onClick={toggleSlider('left', true)}>
               <ArrowBack style={{ color: 'f1c40f' }} />
             </IconButton>
             <Typography variant="h5">PORTFOLIO</Typography>
             <MobileRightMenuSlider
-              anchor="right"
-              open={navSlider.right}
-              onClose={toggleSlider('right', false)}
+              anchor="left"
+              open={navSlider.left}
+              onClose={toggleSlider('left', false)}
             >
-              {sideList('right')}
+              {sideList('left')}
               <Footer />
             </MobileRightMenuSlider>
           </Toolbar>

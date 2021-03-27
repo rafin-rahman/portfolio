@@ -130,9 +130,9 @@ const Resume = () => {
             <Typography variant="subtitle1" style={{ color: '#ecf0f1' }}>
               • Identify opportunities to improve business internal architecture{' '}
               <br />
-              • Develop innovative solution to improve company workflow,
-              communication and analytics <br />
-              • Developing the infrastructure and systems to meet the company’s
+              • Develop innovative solution to improve company workflow and
+              communication <br />
+              • Developing the infrastructure and systems to ensure company’s
               growth
               <br />
               • Conduct regular system audits
@@ -141,7 +141,7 @@ const Resume = () => {
               <br />
               • Keep records and company data
               <br />
-              • Produce digital material for company marketing campaign
+              • Plan & produce digital material for company marketing campaigns
               <br />
             </Typography>
           </Box>
@@ -159,34 +159,20 @@ const Resume = () => {
               Elizabeth School of London Ltd
             </Typography>
             <Typography variant="subtitle1" style={{ color: '#ecf0f1' }}>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-              ducimus enim eum numquam
+              • Actively promote company services
+              <br />
+              • Attract suitable candidates
+              <br />
+              • Conduct interviews and evaluation
+              <br />
+              • Provide recruitment reports to manager
+              <br />
+              • Mange social media content and clients
+              <br />
+              • Dealing with e-mail and applications.
+              <br />• Handle phone conversation
             </Typography>
           </Box>{' '}
-          <Typography
-            variant={'h2'}
-            className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-          >
-            2017
-          </Typography>
-          <Box component={'div'} className={classes.timeLineItem}>
-            <Typography variant="h5" className={classes.subHeading}>
-              JavaScript Full Stack
-            </Typography>
-            <Typography variant="body1" style={{ color: '#f1c40f' }}>
-              Company name where you worked
-            </Typography>
-            <Typography variant="subtitle1" style={{ color: '#ecf0f1' }}>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-              ducimus enim eum numquam
-            </Typography>
-          </Box>{' '}
-          <Typography
-            variant={'h2'}
-            className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-          >
-            2016
-          </Typography>
         </Box>
       </Box>
     </>
