@@ -55,40 +55,23 @@ const Contacts = () => {
           >
             Need a developer? here i am
           </Typography>
-          <InputField
-            fullWidth={true}
-            label={'Name'}
-            variant={'outlined'}
-            inputProps={{ style: { color: '#f1c40f' } }}
-            margin={'dense'}
-            size={'medium'}
-          />
-          <br />
-          <InputField
-            fullWidth={true}
-            label={'Email'}
-            variant={'outlined'}
-            inputProps={{ style: { color: '#f1c40f' } }}
-            margin={'dense'}
-            size={'medium'}
-          />
-          <br />
-          <InputField
-            fullWidth={true}
-            label={'Company name'}
-            variant={'outlined'}
-            inputProps={{ style: { color: '#f1c40f' } }}
-            margin={'dense'}
-            size={'medium'}
-          />
-          <Button
-            className={classes.button}
-            variant={'outlined'}
-            fullWidth={true}
-            endIcon={<SendIcon />}
+
+          <Typography
+            variant={'h5'}
+            style={{
+              textAlign: 'center',
+              textTransform: 'uppercase',
+              fontWeight: 900,
+            }}
           >
-            Contact me
-          </Button>
+            <br />
+            <a
+              href="mailto:info@rafinc.o.uk"
+              style={{ textDecoration: 'none', color: '#ffffff' }}
+            >
+              info@rafin.co.uk
+            </a>
+          </Typography>
         </Box>
       </Grid>
     </Box>
