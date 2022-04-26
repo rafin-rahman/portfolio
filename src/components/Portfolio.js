@@ -43,7 +43,7 @@ const Portfolio = () => {
               />
               <CardContent>
                 <Typography gutterBottom variant={'h5'}>
-                  Coming soon
+                  A website for UK college, Elizabeth School of London
                 </Typography>
                 <Typography
                   variant={'body2'}
@@ -55,10 +55,12 @@ const Portfolio = () => {
               </CardContent>
               <CardActions>
                 <Button size={'small'} color={'primary'}>
-                  Share
-                </Button>
-                <Button size={'small'} color={'primary'}>
-                  Live Demo
+                  <a
+                    href={'https://my-app-4n6rw.ondigitalocean.app/'}
+                    target={'_blank'}
+                  >
+                    Live Demo
+                  </a>
                 </Button>
               </CardActions>
             </CardActionArea>
@@ -87,9 +89,6 @@ const Portfolio = () => {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size={'small'} color={'primary'}>
-                  Share
-                </Button>
                 <Button size={'small'} color={'primary'}>
                   Live Demo
                 </Button>
